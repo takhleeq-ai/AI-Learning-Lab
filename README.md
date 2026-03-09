@@ -42,6 +42,14 @@ ai-learning-lab
 └── README.md
 ```
 
+## Where the journey is documented
+
+This repository contains the experiments behind my public AI learning journey.
+
+The written notes and reflections are published on:
+
+https://syedsubhan.co.uk/architecting-intelligence
+
 ## Current focus
 
 The first experiments explore topics common in financial systems:
