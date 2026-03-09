@@ -27,7 +27,7 @@ Rather than collecting tutorials, I am learning through small experiments:
 Each experiment lives in its own folder.
 
 ## Repository structure
-
+'''
 ai-learning-lab
 │
 ├── experiments
@@ -43,7 +43,7 @@ ai-learning-lab
 │
 ├── requirements.txt
 └── README.md
-
+'''
 
 ## Current focus
 
