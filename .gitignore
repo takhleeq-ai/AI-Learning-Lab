@@ -4,3 +4,5 @@ __pycache__/
 *.pyc
 datasets/*
 !datasets/.gitkeep
+.jupyter_runtime/
+.ipynb_checkpoints/
