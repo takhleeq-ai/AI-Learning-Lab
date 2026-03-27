@@ -58,6 +58,11 @@ ai-learning-lab
 │       ├── experiment.ipynb
 │       ├── notes.md
 │       └── outputs
+├── datasets
+├── posts
+│   └── drafts
+├── requirements.txt
+└── README.md
 ```
 
  ## Experiments
