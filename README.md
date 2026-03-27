@@ -4,7 +4,7 @@ A public, experiment-driven journey into machine learning and applied AI.
 
 This repository is where I learn by doing: running small, focused experiments, documenting what I observe, and building practical intuition step by step.
 
-Rather than trying to jump straight to advanced systems, the goal here is to build from first principles and make the learning visible.
+Rather than jumping straight to advanced systems, the goal here is to build from first principles and make the learning visible.
 
 ---
 
@@ -51,24 +51,23 @@ ai-learning-lab
 │   ├── 01_first_classifier
 │   │   ├── experiment.ipynb
 │   │   └── notes.md
-│   └── 02_looking_beyond_accuracy
+│   ├── 02_looking_beyond_accuracy
+│   │   ├── experiment.ipynb
+│   │   └── notes.md
+│   └── 03_threshold_tradeoffs
 │       ├── experiment.ipynb
-│       └── notes.md
-├── datasets
-├── posts
-│   └── drafts
-├── requirements.txt
-└── README.md
+│       ├── notes.md
+│       └── outputs
 ```
 
-## Experiments
+ ## Experiments
 
 | Experiment | Topic | Status |
 |-----------|------|------|
-| 01 | First Classifier | Completed |
-| 02 | Looking beyond accuracy | Completed |
-| 03 | Precision vs recall trade-offs | Planned |
-| 04 | Threshold tuning | Planned |
+| [01](./experiments/01_first_classifier) | First Classifier | Completed |
+| [02](./experiments/02_looking_beyond_accuracy) | Looking beyond accuracy | Completed |
+| [03](./experiments/03_threshold_tradeoffs) | Threshold trade-offs and decision behaviour | Completed |
+| 04 | ROC and Precision-Recall curves | Planned |
 
 ## Current focus
 
@@ -119,3 +118,19 @@ Build a practical understanding of machine learning by:
 - gradually connecting those lessons to real-world systems in fintech, payments, and beyond
 
 The emphasis is on steady progress, clear thinking, and visible learning in public.
+
+## Key Insights So Far
+
+- Accuracy can be misleading in imbalanced datasets
+- Precision and recall reflect different types of errors
+- The same model can behave very differently depending on the decision threshold
+- Model outputs are probabilities — thresholds turn them into decisions
+- Evaluation must be aligned with real-world cost and risk
+
+---
+
+## Closing Thought
+
+The model didn’t change. The decisions did.
+
+This repository is about understanding that difference.
