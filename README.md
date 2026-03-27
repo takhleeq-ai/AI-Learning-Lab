@@ -58,9 +58,6 @@ ai-learning-lab
 │       ├── experiment.ipynb
 │       ├── notes.md
 │       └── outputs
-│   └── 02_looking_beyond_accuracy
-│       ├── experiment.ipynb
-│       └── notes.md
 ├── datasets
 ├── posts
 │   └── drafts
