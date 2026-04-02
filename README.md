@@ -54,7 +54,11 @@ ai-learning-lab
 │   ├── 02_looking_beyond_accuracy
 │   │   ├── experiment.ipynb
 │   │   └── notes.md
-│   └── 03_threshold_tradeoffs
+│   ├── 03_threshold_tradeoffs
+│   │    ├── experiment.ipynb
+│   │    ├── notes.md
+│   │    └── outputs
+│   └── 04_ranking_vs_decisions
 │       ├── experiment.ipynb
 │       ├── notes.md
 │       └── outputs
@@ -72,7 +76,7 @@ ai-learning-lab
 | [01](./experiments/01_first_classifier) | First Classifier | Completed |
 | [02](./experiments/02_looking_beyond_accuracy) | Looking beyond accuracy | Completed |
 | [03](./experiments/03_threshold_tradeoffs) | Threshold trade-offs and decision behaviour | Completed |
-| 04 | ROC and Precision-Recall curves | Planned |
+| [04](./experiments/04_ranking_vs_decisions) | ROC and Precision-Recall curves | Completed |
 
 ## Current focus
 
