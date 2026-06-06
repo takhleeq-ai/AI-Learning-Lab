@@ -58,7 +58,11 @@ ai-learning-lab
 │   │    ├── experiment.ipynb
 │   │    ├── notes.md
 │   │    └── outputs
-│   └── 04_ranking_vs_decisions
+│   ├── 04_ranking_vs_decisions
+│   │   ├── experiment.ipynb
+│   │   ├── notes.md
+│   │   └── outputs
+│   └── week-05-thresholds
 │       ├── experiment.ipynb
 │       ├── notes.md
 │       └── outputs
@@ -77,18 +81,22 @@ ai-learning-lab
 | [02](./experiments/02_looking_beyond_accuracy) | Looking beyond accuracy | Completed |
 | [03](./experiments/03_threshold_tradeoffs) | Threshold trade-offs and decision behaviour | Completed |
 | [04](./experiments/04_ranking_vs_decisions) | ROC and Precision-Recall curves | Completed |
+| [05](./experiments/week-05-thresholds) | Thresholds as product decisions | Completed |
 
 ## Current focus
 
-The current focus is on early supervised learning foundations, especially:
+The current focus is on supervised learning foundations and decision behaviour, especially:
 
 - classification basics
 - model evaluation
 - imbalanced datasets
 - confusion matrices
 - precision and recall
+- ROC and Precision-Recall curves
+- threshold selection
+- how model scores become real-world decisions
 
-The aim is not just to get models running, but to understand how to judge them properly.
+The aim is not just to get models running, but to understand how to judge them properly and connect model outputs to product, risk, and business outcomes.
 
 ---
 
@@ -135,6 +143,7 @@ The emphasis is on steady progress, clear thinking, and visible learning in publ
 - The same model can behave very differently depending on the decision threshold
 - Model outputs are probabilities — thresholds turn them into decisions
 - Evaluation must be aligned with real-world cost and risk
+- Thresholds are not just technical settings — they can represent product, risk, and business policy
 
 ---
 
